@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(img/blue-tent-grassy-hill-with-mountains-clear-sky_181624-5448.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+}
+
+.logo{
+    width: 70px;
+    height: 40px;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 10px;
+    text-indent: -99999999px;
+}
+header h1 a{
+    display: block;
+    width: 150px;
+    height: 80px;
+}
+
+.language li{
+    text-align: center;   
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 6px; 
+ 
+}
+
+.navbar{
+    background-image: linear-gradient(to bottom right, red, yellow, green );
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+}
+
+.carousel {
+    height: 700px;
+    width: 1200px;
+    margin: 100px auto;
+}
+
+article{
+    
+    width: 1200px;
+    height: 700px;
+    text-align: center;
+    position: relative;
+}
+.image{
+    background-image: url(img/racha22.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 300px;
+    width: 100%;
+    height: 70%;
+}
+
+article h2{
+    background-color: aliceblue;
+    padding: 14px;
+    width: 20%;
+    position: absolute;
+    top: 420px;
+    left:480px;
+    font-weight: 900;
+}
+
+article p{
+    margin: 50px auto;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.kaxeti{
+    background-image: url(img/kaxet.jpg);
+
+}
+.price{
+    
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #fd0000;
+    position: absolute;
+    bottom: 5px;
+    left: 525px;
+    
+}
+
+.price a{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+
+.svaneti{
+    background-image: url(img/svanet.jpg);
+    
+}
+
+.achara{
+    background-image: url(img/achara.jpg);
+}
+
+.activehead{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #000000;
+
+}
+
+.activebox{
+    width: 1300px;
+    height:1000px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.activobebi{
+    width: 350px;
+    height: 370px;
+    background-color: rgb(88, 87, 87, 0.2);
+
+}
+
+.activobebi img{
+    width: 100%;
+    height: 300px;
+}
+
+.activobebi p{
+    padding:20px ;
+    font-size: 26px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ca4545;
+
+}
+
+.activobebi p:hover{
+    background-color: #ca0000;
+}
+
+
+.socialicon{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    right:0px;
+    position: fixed;
+ }
+ 
+ .link{
+     width: 100%;
+     height: 50%;
+ }
+ 
+ .insta{
+     background-image: url(img/instagram.png);
+ }
+ 
+ .fb{
+     background-image: url(img/facebook.png);
+ }
+ 
+ .fb:hover{
+     box-shadow: 0px 0px 10px #000000;
+ }
+ 
+ .insta:hover{
+    box-shadow: 0px 0px 10px #000000;
+ }
+
+
+
+
+
+footer{
+    
+    margin-top: 100px;
+    width:100% ;
+    height: 200px;
+    position: relative;
+    bottom: 0;
+}
+.foota{
+    align-items: flex-start;
+    background-image: linear-gradient(to bottom right, red, yellow, green );
+    padding: 50px 218px 50px 102px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+
+.foota h2 {
+    margin-bottom: 30px;
+    font-weight: 900;
+    color: #000000;
+}
+
+.foota ul li{
+    margin-bottom: 10px ;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+.simbolo{
+    width: 160px;
+
+    
+}
+
+.simbolo i{
+    color: #000000;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+/* .menmen{
+    position: absolute;
+    overflow: hidden;
+    background-color: #00000000;
+    width: 100%;
+    height:150px ;
+    bottom: 0;
+} */
+
+.men{
+    width: 200px;
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    animation: movingmen 15s infinite;
+}
+@keyframes  movingmen{
+    0% { left: -100px; bottom: 2px; }
+    
+    100% { left: 100%;bottom:2px; }
+     
+
+    
+}
+
+/* 
+------------------------------------------------------------------------------- */
+
+
+.amindi{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.shvili{
+    padding: 50px;
+}
+/* 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.offertext {
+    padding: 100px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.gridoffer{
+    margin:50px auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 80%;
+    height: 1200px;
+    grid-gap: 10px;
+}
+
+
+
+.tab1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color: #29b4df; 
+    background-image: url(img/gudauristatia.jpg);
+    background-size: cover;
+    padding: 30px;
+    position: relative;
+   
+
+}
+
+.tab1 div{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/transs.png);
+    background-size: cover;
+    position: absolute;
+    top: -50px;
+    left: -50px;  
+}
+
+.tab1 div.varskvlavi p{
+    
+    margin: 45px 0px 0px 45px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    transform: rotate(-45deg);
+}
+
+.tab1 h2{
+margin-left: 350px;
+font-weight: 900;
+
+}
+.varskvlavi:hover{
+    transform: scale(1.3);  
+}
+
+
+.tab2{
+    background-image: url(img/bakhmaro.jpg);
+    background-size: cover;
+    background-color: #9b6f6f;
+    grid-row: 1/2;
+    grid-column: 3/4;
+    position: relative;
+
+}
+
+.star{
+    width: 120px;
+    height: 120px;
+    background-image: url(img/transs.png);
+    background-size: cover;
+    position: absolute;
+    top: -20px ;
+    right: -20px ; 
+    z-index: 100;
+   
+    
+}
+
+.star:hover{
+    transform: scale(1.3);  
+}
+
+.star p{
+    
+    margin: 50px 0px 0px 30px ;
+    transform: rotate(45deg);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tab3{
+    position: relative;
+    background-image: url(img/sairme.jpg);
+    background-size: cover;
+    grid-row: 1/2;
+
+}
+.star3{
+    width: 120px;
+    height: 120px;
+    background-image: url(img/transs.png);
+    background-size: cover;
+    position: absolute;
+    top: -20px ;
+    right: -20px ; 
+    z-index: 100;
+
+}
+.star3 p{
+    
+    margin: 50px 0px 0px 30px ;
+    transform: rotate(45deg);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.star3:hover{
+    transform: scale(1.3);  
+}
+
+
+
+
+
+
+.tab4{
+    background-image: url(img/batumioffer.webp);
+    background-size: cover;
+    background-color: #ffffff;
+    grid-column:3/5 ;
+    grid-row:2/4 ;
+    position: relative;
+
+}
+
+
+.star4{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/transs.png);
+    background-size: cover;
+    position: absolute;
+    top: -50px;
+    left: -50px; 
+    z-index: 20;
+
+}
+.star4 p{
+    text-align: center;
+    margin-top: 85px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    transform: rotate(-45deg);
+
+}
+
+.star4:hover{
+    transform: scale(1.3);  
+}
+
+.tab4 h2{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+
+
+
+.tab5{
+    background-image: url(img/svanetipano.jpg);
+    background-size: cover;
+    grid-column:1/3;
+    grid-row:5/15 ;
+    position: relative;
+
+}
+
+.tab6{
+    background-image: url(img/goderdzi_pass_2.jpg);
+    background-size: cover;
+    grid-column:1/3;
+    grid-row:3/5 ;
+    position: relative;
+
+}
+.star6{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/transs.png);
+    background-size: cover;
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    z-index: 120;
+}
+.star6:hover{
+    transform: scale(1.3);
+}
+
+.star6 p{
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 900;
+    transform: rotate(45deg);
+
+}
+.tab7{
+    background-image: url(img/kaketi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 3/5;
+    grid-row:4/15 ;
+    position: relative;
+
+}
+
+
+@media only screen and (max-width: 
+1024px){
+    
+.nav>li>a {
+    padding: 16px 10px;
+}
+
+.dropdown-menu {
+    min-width: 66px;
+}
+
+.navbar {
+    font-size: 14px;
+}
+    
+
+.carousel{
+    width: 976px;
+}
+article h2 {
+    width: 15%;
+    left: 406px;
+    top: 436px;
+}
+article p{
+    width: 80%;
+    margin: 16px;
+    text-align: center;
+    font-size: 18px;
+}
+.price {
+    bottom: 18px;
+    left: 418px;
+    
+}
+
+.activehead {
+    margin-top: 0px;
+}
+
+.activebox{
+    margin: 40px 0px 250px 76px;
+    width: 848px;
+}
+
+.activobebi {
+    margin-bottom: 40px;
+}
+
+.foota{
+    padding: 20px;
+}
+
+.list{
+    padding: 20px;
+}
+
+.h2, h2 {
+    font-size: 28px;
+}
+
+.activehead {
+    padding-left: 20px;
+}
+
+.tab1 h2 {
+    display: none;
+}
+
+.tab4 h2 {
+    display: none;
+}
+
+.gridoffer{
+    margin: -78px auto;
+}
+
+
+
+}
